@@ -1,0 +1,522 @@
+/*@import url('http://fonts.googleapis.com/css?family=Lato');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, table{
+        background:#fff;
+        /* font-family: /*Lato,arial,helvetica,sans-serif; */
+	font-family: 'Open Sans', Helvetica Neue, sans-serif;
+        font-size: 1.0em;
+        font-variant: normal;
+	font-style: normal;
+        line-height:22px;
+        color:#444;
+        width:99%;
+        margin: 25px auto 75px auto;
+        position:relative;
+        top: 0;
+        padding: 0;
+        /* overflow: hidden; */
+        /* overflow-y:hidden; */
+        /* min-height: 2000px; */
+}
+
+#logo {
+        position: relative;
+        top: -2px;
+        float: right;
+	width: 134px;
+	background:  url('../img/logo.jpg') no-repeat;
+	height:  27px;
+}
+
+table {
+    color: #666;
+    font-size: small;
+    line-height: 1.7;
+    padding: 0;
+    width: auto;
+}
+
+td {
+    padding: 0 15px;
+}
+
+h1{
+        margin:0 0 15px;
+        line-height: 29px;
+        color: #0F0F0F;
+        font-size: 1.6em;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+}
+
+h1.no_margin {
+        margin:0;
+}
+
+h3 {
+        color: #0F0F0F;
+}
+
+a{
+        color:#d41d1d 
+}
+
+hr{
+        border:0;
+        margin:0;
+        padding:0;
+        color:#f6f6ef;
+        clear:both;
+        border-bottom:1px dashed #999;
+        margin-bottom: 25px
+}
+
+hr.thirty {
+        height: 30px;
+        margin-bottom: 30px;
+}
+
+hr.line {
+        border-bottom:1px solid #cbcbcb;
+}
+
+hr.no_margin {
+        margin-bottom: 0;
+}
+
+hr.mini_margin {
+        margin-bottom: 7px;
+}
+
+#examples{ position:absolute; left:0; width:300px; overflow:visible }
+
+#photo_holder {
+        float: left;
+        margin: 0 35px 0 0;
+        min-width: 350px;
+}
+
+#specials {
+        display: inline-block;
+        margin: 0 0 7px 0;
+}
+
+#specials_full {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 7px 0;
+}
+
+#description{
+
+        overflow:hidden;
+        float: left;
+}
+
+ol, ul, p {
+        color: #666;
+        font-size: 13px;
+        line-height: 1.7;
+}
+
+h5 {
+    margin: 7px 0;
+    font-size: 1.0em;
+    color: #444;
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        margin-left: -21px;
+}
+
+.description ul li:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    color: #85B200;
+    margin: 0px 0px 0px -19px;
+    width: 30px;
+    font-size: inherit;
+    padding-right: 7px;
+}
+
+.description ul li {
+  margin-bottom: 3px;
+}
+
+.data ul li {
+    padding: 0px 0px 0px 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+p {
+        margin: 0 0 25px 0;
+        text-align: justify;
+}
+
+.clear {
+        clear: both;
+}
+
+.ten {
+        margin: 10px 0;
+}
+
+.twenty {
+        margin: 20px 0;
+}
+
+.thirty {
+        margin: 30px 0;
+}
+
+.info_holder {
+    overflow: hidden;
+    margin: 0 0 50px 0;
+}
+
+.info_holder .tags li a {
+	text-transform: none;
+}
+
+.info, .suggest_holder {
+        margin: 0 0 17px 0;
+}
+
+.info.left {
+        width: 35%;
+        float: left;
+        margin:0;
+}
+
+.info.right {
+        float: right;
+        width: 50%;
+}
+
+.shipping_info.left {
+        width: 25%;
+        float: left;
+        margin:0;
+}
+
+.shipping_info {
+
+    width: 65%;
+    float: right;
+    margin: 30px 0 25px 0;
+}
+
+.shipping_info .shipping_badge {
+        width: 121px;
+        height: 86px;
+        float: left;
+        margin: -5px 35px 0 0;
+}
+
+.b_stock {
+        width: 70%;
+        float: left;
+}
+
+.a_stock {
+        float: right;
+        font-size: 1.4em;
+        line-height:27px;
+        width: 150px;
+        margin: 23px 13px 0 0;
+        height: 100px;
+        color: #fff;
+        background: #0089e0;
+        padding: 15px;
+        text-transform: uppercase;
+        border-radius: 4px;  
+        transition:background-color 200ms;
+        -moz-transition:background-color 200ms; /* Firefox 4 */
+        -webkit-transition:background-color 200ms; /* Safari and Chrome */
+        -o-transition:background-color 200ms; /* Opera */
+}
+
+.a_stock:hover {
+        background: #20e000;
+        color: #fff;
+}
+
+.a_stock:hover a {
+        color: #fff;
+}
+
+.color_holder {
+        margin: 3px 0 0 0;
+        padding: 0;
+}
+
+.color_holder h3 {
+        float: left;
+        margin: 0 7px 0 0;
+}
+
+.color {
+        width: 35px;
+        height: 26px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        float: left;
+        margin: 0 5px 0 0;
+}
+
+.color div {
+        border-radius: 1px;
+        height: 22px;
+        width: 31px;
+        margin: 2px;
+}
+
+.color a {
+
+}
+
+.color .white {
+        background: #f9f9f9;
+}
+
+.color .black {
+        background: #000;
+}
+
+.color .brown {
+        background: #976549;
+}
+
+.color .grey {
+        background: #B3B3B3;
+}
+
+.color .red {
+        background-color: #DE3D1D;
+}
+
+.color .blue {
+        background-color: #657EEA;
+}
+
+.color .pink {
+        background: #E28DEC;
+}
+
+.color .orange {
+        background: #FDA249;
+}
+
+.color .purple {
+        background-color: #7E47E4;
+}
+
+.color .silver {
+        background-color: #E5E5E5
+}
+
+.color .green {
+        background-color: #9ECC4D;
+}
+
+.color .yellow {
+        background-color: #F4DE3F;
+}
+
+.color .rose {
+        background-color: #E28DEC;
+}
+
+.code{ font:14px monospace; background:#333; color:#ddd; padding:15px 20px; text-shadow:0 0 1px #000 }
+.tab{ margin-left:30px }
+.comment{ color:#f5dd72; font-style:italic }
+.class{ color:#61e12e }
+.list{ margin:35px 0 45px; border-collapse:collapse }
+.list th{ font-style:italic; font-weight:normal; text-align:left }
+.list td{ vertical-align:top; padding:3px 20px 3px 6px; border:1px solid #ccc; background:#f6f6ef }
+.list .option{ font-weight:bold }
+.list .default{ padding-right:0 }
+.list tr:hover td{ background:#fff }
+
+.no_numbers {
+    list-style: none;
+}
+
+.no_numbers li {
+	margin: 0 0 0 -21px;
+}
+
+li, li a {
+	color: #666;
+	margin: 0;
+}
+
+.price {
+  color: #070;
+  /* color: #900; */
+}
+
+ol {
+    display: inline-block;
+    margin: 0;
+}
+
+.suggestion, .included_product, .variations {
+  width: 175px; 
+  float: left; 
+  margin: 0 2% 0 2%;
+  height: 200px;
+  font-size: 0.8em;
+}
+
+.included_product {
+  margin: 0 1% 0 1%;
+  height: 150px;
+  text-align: center;
+}
+
+.variations {
+  margin: 0 1% 0 1%;
+  height: 130px;
+}
+
+.plus {
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        padding: 25px 0 0 0;
+        float: left;
+        line-height: 1.7;
+        color: #666;
+}
+
+.product_label {
+	margin: 9px 0 0 0;
+}
+
+.suggestion img {
+  min-height: 100px;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: #039;
+  outline: none;
+}
+
+.suggestion a:hover {
+  text-decoration: underline;
+}
+
+.suggestion a:visited {
+}
+
+#last {
+  height: 650px;
+}
+
+#element {
+
+}
+
+/* Tags */
+
+.quality_badge, .quality_badge_photo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        z-index: 999;
+}
+
+.quality_badge_photo {
+        top: -21px;
+        left: 340px;
+}
+
+.empty_badge_holder {
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.indent-50 {
+        text-indent: 55px;
+}
+
+.battv p {
+    font-size: 0.7em;
+}
+
+.tags{
+	margin:0;
+	padding:0;
+	float: left;
+	list-style:none;
+}
+	
+.tags li, .tags a{
+	float:left;
+	line-height:24px;
+	position:relative;
+	font-size:11px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin: 5px 0 5px 0;
+        /* text-shadow:0 0 1px #f7f7f7; */
+}
+
+.tags a, .tag{
+	margin: 0 7px 0 0;
+	padding:0px 9px 0px 10px;
+	background:#0089e0;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;	
+	border-radius:2px;
+/*
+	background: -webkit-gradient(linear, left top, left bottom, from(#0089e0), to(#1995E3));
+	background: -moz-linear-gradient(top, #0089e0,  #1995E3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+*/
+	cursor: default;
+
+}
+
+.tag {
+        text-transform:uppercase;
+        letter-spacing: 0;
+}
+
+.tag.green {
+        background:#20e000;
+}
+
+.tags.green a {
+        background:#20e000;
+}
+
+.tags.red a {
+        background:#e00000;
+}
+
+.tags.green {
+        float: right;
+}
+
+.tags a:hover{/*background:#555;*/cursor: default;pointer-events: none;}	
+
+.tags a:hover:before{border-color:transparent #555 transparent transparent;}
+
+.installation_instructions div div {
+    color: #666;
+    font-size: small;
+    line-height: 1.7;
+}
+
