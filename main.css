@@ -41,19 +41,20 @@ td {
     padding: 0 15px;
 }
 
-@media screen and (max-width: 500px){
-  h1 {
-    font-size: 1.3em;
-  }
+h1 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin:0 0 15px;
+  color: #0F0F0F;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-h1{
-        margin:0 0 15px;
-        line-height: 1.7em;
-        color: #0F0F0F;
-        font-size: 1.6em;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+@media screen and (min-width: 480px) {
+  h1 {
+    line-height: 1.7em;
+    font-size: 1.6em;
+  }
 }
 
 h1.no_margin {
